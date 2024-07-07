@@ -99,36 +99,35 @@ Greatly underrated ascii graphics visualizing gross tabulations
     hbar type /discrete subgroup=drivetrain group=drivetrain;
     run;quit;
 
-    **************************************************************************************************************************/ /
-    *                                                                                                                        */ /
-    * You need to edit this                                                                                                  */ /
-    *                                                                                                                        */ /
-    * DRIVETRAIN   TYPE                                                    Cum.              Cum.                            */ /
-    *                                                                Freq  Freq  Percent  Percent                            */ /
-    *                       |                                                                                                */ /
-    * All          SUV      |AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA    38    38    27.34    27.34                            */ /
-    *              Sports   |AAAAA                                      5    43     3.60    30.94                            */ /
-    *              Wagon    |AAAAAAAAA                                  9    52     6.47    37.41                            */ /
-    *                       |                                                                                                */ /
-    * Front        SUV      |FFFFFFFFFFFFFFFFFFFFFF                    22    74    15.83    53.24                            */ /
-    *              Sports   |FFFFFFFF                                   8    82     5.76    58.99                            */ /
-    *              Wagon    |FFFFFFFFFFFFFF                            14    96    10.07    69.06                            */ /
-    *                       |                                                                                                */ /
-    * Rear         SUV      |                                           0    96     0.00    69.06                            */ /
-    *              Sports   |RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR      36   132    25.90    94.96                            */ /
-    *              Wagon    |RRRRRRR                                    7   139     5.04   100.00                            */ /
-    *                       |                                                                                                */ /
-    *                       -----+----+----+----+----+----+----+---                                                          */ /
-    *                            5    10   15   20   25   30   35                                                            */ /
-    *                                                                                                                        */ /
-    *                                      Frequency                                                                         */ /
-    *                                                                                                                        */ /
-    *                                                                                                                        */ /
-    * Symbol DRIVETRAIN     Symbol DRIVETRAIN     Symbol DRIVETRAIN                                                          */ /
-    *                                                                                                                        */ /
-    *    A   All               F   Front             R   Rear                                                                */ /
-    *                                                                                                                        */ /
-    **************************************************************************************************************************/ /
+    /**************************************************************************************************************************/  
+    /*                                                                                                                        */ 
+    /* You need to edit this                                                                                                  */ 
+    /*                                                                                                                        */ 
+    /* DRIVETRAIN   TYPE                                                    Cum.              Cum.                            */ 
+    /*                                                                Freq  Freq  Percent  Percent                            */ 
+    /*                       |                                                                                                */ 
+    /*              Sports   |AAAAA                                      5    43     3.60    30.94                            */ 
+    /*              Wagon    |AAAAAAAAA                                  9    52     6.47    37.41                            */ 
+    /*                       |                                                                                                */ 
+    /* Front        SUV      |FFFFFFFFFFFFFFFFFFFFFF                    22    74    15.83    53.24                            */ 
+    /*              Sports   |FFFFFFFF                                   8    82     5.76    58.99                            */ 
+    /*              Wagon    |FFFFFFFFFFFFFF                            14    96    10.07    69.06                            */ 
+    /*                       |                                                                                                */ 
+    /* Rear         SUV      |                                           0    96     0.00    69.06                            */ 
+    /*              Sports   |RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR      36   132    25.90    94.96                            */ 
+    /*              Wagon    |RRRRRRR                                    7   139     5.04   100.00                            */ 
+    /*                       |                                                                                                */ 
+    /*                       -----+----+----+----+----+----+----+---                                                          */ 
+    /*                            5    10   15   20   25   30   35                                                            */ 
+    /*                                                                                                                        */ 
+    /*                                      Frequency                                                                         */ 
+    /*                                                                                                                        */ 
+    /*                                                                                                                        */ 
+    /* Symbol DRIVETRAIN     Symbol DRIVETRAIN     Symbol DRIVETRAIN                                                          */ 
+    /*                                                                                                                        */ 
+    /*    A   All               F   Front             R   Rear                                                                */ 
+    /*                                                                                                                        */ 
+    /**************************************************************************************************************************/ 
 
 
     options ls=120 ps=44;
